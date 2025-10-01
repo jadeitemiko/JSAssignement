@@ -103,5 +103,52 @@ const avrunda = berArea.toFixed(2)
 console.log("om radien är " + radie + " är arean av cirkeln " + avrunda);
 
 
+//Implement a program that takes a number input and displays its negation.
+
+const firstVal = 11;
+
+function makeNeg(input) {
+let negVal = -input;
+return negVal;
+}
+
+let Negativt = makeNeg(firstVal);
+
+console.log("om värdet " + firstVal + " ska skrivas negativt gör man " + Negativt);
+
+/* Implement a program that calculates the BMI of a person using their
+weight in kilograms and height in meters.
+Display the BMI value.
+för att kvadrera värde: console.log(2 ** 2);
+ */
+
+const vikt = 70;
+const langd = 1.82;
+
+function calcBMI(vikt, langd){
+  let utrakn = vikt/(langd ** 2);
+  return utrakn;
+}
+
+let BMI = calcBMI(vikt, langd);
+const BMIround = Math.round(BMI);
+
+console.log("BMI är vikt/längd^2. Om vikt är " + vikt + " och höjden är " + langd + " är BMI (avrundat): " + BMIround);
+
+/* Implement a program that calculates the length of the hypotenuse of a
+right triangle using the lengths of the other two sides as inputs. Display the result.
+ */
+
+const triA = 3;
+const triB = 4;
+
+function calcC2(triA, triB) {
+  let triC2 = (triA ** 2) + (triB ** 2);
+  return triC2;
+}
+
+let hypo = Math.sqrt(calcC2(triA, triB));
+
+console.log("Pythagoras sats är a2 + b2 = c2. Om a är " + triA + " och b är " + triB + " är c " + hypo);
 
 
