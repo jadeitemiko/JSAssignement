@@ -151,4 +151,30 @@ let hypo = Math.sqrt(calcC2(triA, triB));
 
 console.log("Pythagoras sats är a2 + b2 = c2. Om a är " + triA + " och b är " + triB + " är c " + hypo);
 
+//förenkla koden enligt förslag från AI
+function beraknHypotenusa(triA, triB) {
+  let hypo = Math.sqrt((triA ** 2) + (triB ** 2));
+  return hypo;
+}
 
+console.log("Förenklad kod! Pythagoras sats är a2 + b2 = c2. Om a är " + triA + " och b är " + triB + " är c " + hypo);
+
+/* Implement a program that takes a number input representing seconds
+and converts it to minutes and remaining seconds, then displays the result.
+ */
+
+const allTime = 111;
+
+function hMin(allTime) {
+  const  minutes = Math.floor(allTime/60);
+  return minutes;
+}
+
+function hSek(allTime) {
+  const sec = allTime % 60;
+  return sec;
+}
+
+const m2 = hMin(allTime);
+const s = hSek(allTime);
+console.log(allTime + " sekunder blir " + m2 + " minuter och " + s + " sekunder.");
