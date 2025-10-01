@@ -86,8 +86,21 @@ function minFunk(input) {
   console.log(input);
 }
 
+minFunk(i + a);
+
 console.log("=======");
 
+//Implement a program that calculates the area of a circle using a number input
+// for the radius and displays the result.
+
+function calcCirc(radie) {
+  let Area  = Math.PI * radie * radie;
+  return Area;
+}
+const radie = 8;
+const berArea = calcCirc(radie);
+const avrunda = berArea.toFixed(2)
+console.log("om radien är " + radie + " är arean av cirkeln " + avrunda);
 
 
 
