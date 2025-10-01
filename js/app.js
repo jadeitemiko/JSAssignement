@@ -10,5 +10,3 @@ console.log (
 
 const examplestring = "Hello Class this is an example of constants ";
 console.log(examplestring);
-
-
