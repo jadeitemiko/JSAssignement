@@ -1,4 +1,14 @@
-console.log ("This is line 1");
-console.log ("This is line 2");
-console.log ("This is line 13"); console.log ("This is line 14");
-console.log ("This is line 5");;
+/*
+Author: Gabriella
+Date: 2025-10-01
+gabriella.gomez (snabela) medieinstitutet.se
+ */
+
+console.log (
+  "Hello World!"
+);
+
+const examplestring = "Hello Class this is an example of constants ";
+console.log(examplestring);
+
+
