@@ -86,8 +86,8 @@ function minFunk(input) {
   console.log(input);
 }
 
-minFunk(i);
-minFunk(a);
+console.log("=======");
+
 
 
 
