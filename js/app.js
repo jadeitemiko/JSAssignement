@@ -23,6 +23,8 @@ console.log(stringexample);
 
 console.log(carName);
 
+// övning P4Variables
+
 let countValue = 10;
 const sats = "green bottles hanging on the wall";
 const sats2 = "and if one green bottle should accidentally fall, there will be";
@@ -191,3 +193,50 @@ console.log(numberofBottles + string + ". " + numberofBottles + string);
 --numberofBottles;
 const string2 = "And if one green bottle should accidentally fall, there will be " + numberofBottles; + "."
 console.log(string2 + string);
+
+console.log("==========")
+
+//övning P6Types - förenkla koden från P4Variables övningen
+
+let raknVarde = 10;
+const green0 = " green bottles hanging on the wall. "
+const green1 = raknVarde + green0;
+const green2 = "And if one green bottle should accidentally fall, there will be " + --raknVarde;
+console.log(green1 + green2 + green0);
+
+//experimentell for-loop - Gemini hjälper här
+
+const antFlask = 3;
+const gron0 = " green bottles hanging on the wall. "
+const gron1 = antFlask + green0;
+const gron2 = "And if one green bottle should accidentally fall, there will be ";
+
+for (let Bott = antFlask; 0 < Bott; Bott--) {
+  if(Bott !== antFlask) {
+    console.log(gron2 + Bott + gron0);
+  }
+  console.log(Bott + gron1 + Bott + gron1);
+}
+
+//boolean dvs sant/falskt
+
+let bool = true;
+console.log(bool);
+console.log(!bool);
+
+const age = 24;
+const birthyear = 2002;
+
+console.log("Stämmer ålder och år mot kontrollen:");
+console.log(age == 26 && birthyear == 2002);
+console.log("Stämmer ålder ELLER år mot kontrollen:");
+console.log(age == 26 || birthyear == 2002);
+
+function getAge() {
+  return age;
+}
+
+let ages = getAge();
+console.log(Ages);
+let results = getAge();
+
