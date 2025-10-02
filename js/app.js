@@ -258,26 +258,31 @@ console.log("Barn: " + isChild);
 console.log("Tonåring: " + isTeen);
 console.log("Vuxen: " + isAdult);
 
-//testar själv en if-loop för att kontrollera om korrekt ålder.
-console.log("Rimlighetskontroll!")
-const bYear = 2030; //födelseår
-const cYear = new Date().getFullYear();
-const Alder = cYear - bYear;
-let isBarn = Alder >= 0 && Alder <= 12;
-let isTon =  Alder >=13 && 17 >= Alder;
-let isVux = Alder >= 18;
-console.log("Är någon som är " + Alder + " barn, tonåring eller vuxen?");
-console.log("Barn: " + isBarn);
-console.log("Tonåring: " + isTon);
-console.log("Vuxen: " + isVux);
-if (Alder >= 18 {
-  
-})
-
 //koden för datum
 const idag = new Date();
 const YY = idag.getFullYear();
 const MM = idag.getMonth()+1; //js börjar räkna från 0, så alltid plus ett
 const DD = idag.getDate();
 console.log("Dagens datum i varianter: " + YY + "-" + MM + "-" + DD);
+
+//testar själv en if-loop för att kontrollera om korrekt ålder.
+const bYear = 1980; //födelseår
+const cYear = new Date().getFullYear();
+const Alder = cYear - bYear;
+/* let isBarn = Alder >= 0 && Alder <= 12;
+let isTon =  Alder >=13 && 17 >= Alder;
+let isVux = Alder >= 18; */
+console.log("Vad är någon som är " + Alder + " år gammal?");
+if (Alder >= 18) {
+  console.log("Vuxen");
+}
+else if (Alder >= 13) {
+  console.log("Tonåring");
+}
+else if (Alder >= 0 ) {
+  console.log("Barn");
+}
+else {
+  console.log("Felaktigt årtal, vänlig kontrollera du skrivit rätt.")}
+
 
