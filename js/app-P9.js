@@ -26,3 +26,12 @@ isHungry = true;
 if(isHungry){
   makeLasagna();
 }
+
+//nu skapar vi listor
+
+let listExample = [1,3,5,9,13]
+console.log(listExample + " Listar hela listan.");
+console.log("Lista värdet i position två, räknar från 0: " + listExample[2]);
+
+let list2 = [1,2,3]
+list2.forEach(char => console.log(char));
