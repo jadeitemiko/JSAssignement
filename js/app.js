@@ -157,7 +157,8 @@ function beraknHypotenusa(triA, triB) {
   return hypo;
 }
 
-console.log("Förenklad kod! Pythagoras sats är a2 + b2 = c2. Om a är " + triA + " och b är " + triB + " är c " + hypo);
+console.log("Förenklad kod! Pythagoras sats är a2 + b2 = c2. " +
+  "Om a är " + triA + " och b är " + triB + " är c " + beraknHypotenusa(triA, triB));
 
 /* Implement a program that takes a number input representing seconds
 and converts it to minutes and remaining seconds, then displays the result.
@@ -178,3 +179,15 @@ function hSek(allTime) {
 const m2 = hMin(allTime);
 const s = hSek(allTime);
 console.log(allTime + " sekunder blir " + m2 + " minuter och " + s + " sekunder.");
+
+console.log("==========")
+
+//sätt in siffror i en sträng
+
+const string = " green bottles hanging on the wall";
+let numberofBottles = 10;
+
+console.log(numberofBottles + string + ". " + numberofBottles + string);
+--numberofBottles;
+const string2 = "And if one green bottle should accidentally fall, there will be " + numberofBottles; + "."
+console.log(string2 + string);
