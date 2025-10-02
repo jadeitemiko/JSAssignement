@@ -285,4 +285,39 @@ else if (Alder >= 0 ) {
 else {
   console.log("Felaktigt årtal, vänlig kontrollera du skrivit rätt.")}
 
+//testar en lite mer komplex if-loop med variabler
+// inklusive jämföra två år och ge felmmeddelande först om konstigt år
+//FORTFARANDE KONSTIG
 
+const fAr = 2000; //födelseår
+const nAr = new Date().getFullYear(); //nuvarande år
+const favvo = 24;
+const Ålder = nAr - fAr;
+let ageCat = "";
+let compare = "";
+let utdata ="";
+
+if (Ålder < 0) {
+  utdata ="Felaktigt årtal, vänlig kontrollera du skrivit rätt.";
+}
+else {
+   if (Ålder >= 18) {
+    ageCat = "vuxen"; //anger att personen är vuxen
+  }
+  else if (Ålder >= 13) {
+    ageCat = "tonåring"; //anger personen tonåring, vi vet de är under 18 pga ovan
+  }
+  else if (Ålder >= 0) {
+    ageCat = "barn";
+  }
+  utdata = "Du är " + ageCat;
+ if (Ålder > favvo && Ålder >= 0) {
+  compare =" och äldre än ditt favoritnummer.";
+  } else if (Ålder < favvo && Ålder >= 0) {
+    compare = " och yngre än ditt favoritnummer.";
+  } else if (Ålder == favvo && Ålder >= 0) {
+    compare = "och i år ditt favoritnummer gammal. Grattis!";
+  }
+ else {compare ="";}
+}
+  console.log(Ålder + " år gammal, är ditt favoritnummer " + favvo + ". " + utdata + compare + " <3");
