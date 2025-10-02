@@ -232,11 +232,52 @@ console.log(age == 26 && birthyear == 2002);
 console.log("Stämmer ålder ELLER år mot kontrollen:");
 console.log(age == 26 || birthyear == 2002);
 
-function getAge() {
-  return age;
-}
+/*
+> större än
+>= större eller lika med
+< är mindre än
+<= mindre än eller lika med
+== lika med
+!= ej lika med
+ */
 
-let ages = getAge();
-console.log(Ages);
-let results = getAge();
+console.log( 10 > 9); //10 är större än 9 dvs true
+console.log( 10 < 10); //10 är inte STÖRRE än 10 dvs får vi false
+console.log( 10 >= 10); //10 är större eller lika med 10 dvs får vi sant
+
+//övning P7 boolean
+
+const birthYear = 2030; //födelseår
+const currentYear = new Date().getFullYear();
+const Age = currentYear - birthYear;
+let isChild = Age >= 0 && Age <= 12;
+let isTeen =  Age >=13 && 17 >= Age;
+let isAdult = Age >= 18;
+console.log("Är någon som är " + Age + " barn, tonåring eller vuxen?");
+console.log("Barn: " + isChild);
+console.log("Tonåring: " + isTeen);
+console.log("Vuxen: " + isAdult);
+
+//testar själv en if-loop för att kontrollera om korrekt ålder.
+console.log("Rimlighetskontroll!")
+const bYear = 2030; //födelseår
+const cYear = new Date().getFullYear();
+const Alder = cYear - bYear;
+let isBarn = Alder >= 0 && Alder <= 12;
+let isTon =  Alder >=13 && 17 >= Alder;
+let isVux = Alder >= 18;
+console.log("Är någon som är " + Alder + " barn, tonåring eller vuxen?");
+console.log("Barn: " + isBarn);
+console.log("Tonåring: " + isTon);
+console.log("Vuxen: " + isVux);
+if (Alder >= 18 {
+  
+})
+
+//koden för datum
+const idag = new Date();
+const YY = idag.getFullYear();
+const MM = idag.getMonth()+1; //js börjar räkna från 0, så alltid plus ett
+const DD = idag.getDate();
+console.log("Dagens datum i varianter: " + YY + "-" + MM + "-" + DD);
 
