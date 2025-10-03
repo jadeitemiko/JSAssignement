@@ -17,7 +17,7 @@ console.log(checkEligibility(playerAge));
 //spelare måste vara minst 13 år gamla för äventyret
 function checkEligibility(playerAge){
   if (playerAge <= 12) {
-    return "At " + playerAge + " you are too young to join the adventure!"
+    return "At " + playerAge + " you are too young to join the adventure."
   }
   else {
     return "At " + playerAge + " you are of age to join the adventure.";
@@ -66,4 +66,13 @@ function Location(Difficulty) {
 
 //skriv ut alla meddelanden och starta spelet
 console.log(Location(Difficulty) + Equip(rightHand, leftHand));
+
+//random encounter
+
+function rollDice() {
+  return Math.floor(Math.random() * 6) + 1;
+}
+
+console.log("Suddenly, a garlic farmer appears and begs for help:")
+console.log("'Adventurer! My "  + rollDice() + " sheep have run amok. Please find them for me!'");
 
