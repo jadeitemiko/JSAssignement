@@ -53,7 +53,7 @@ function Equip(rightHand, leftHand) {
 }
 
 //var börjar äventyret?
-function Location(Difficulty, playerAge) {
+function Location(Difficulty) {
   if (Difficulty === "Easy") {
     return "You start your adventure at home";
   }
@@ -65,5 +65,5 @@ function Location(Difficulty, playerAge) {
 }
 
 //skriv ut alla meddelanden och starta spelet
-console.log(Location(Difficulty, playerAge) + Equip(rightHand, leftHand));
+console.log(Location(Difficulty) + Equip(rightHand, leftHand));
 
