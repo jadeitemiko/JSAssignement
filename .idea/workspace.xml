@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59dfc09f-f767-4c41-9b9b-e2bdd73002a4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/js/Assignment2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/P10-outputandinput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/P9functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/P9functions.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.Assignment2.js.executor": "Run",
+    "Node.js.P10-outputandinput.js.executor": "Run",
     "Node.js.P9functions.js.executor": "Run",
     "Node.js.app-P9.js.executor": "Run",
     "Node.js.app.js.executor": "Run",
@@ -67,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1759305972014</updated>
       <workItem from="1759305973909" duration="391000" />
-      <workItem from="1759306419824" duration="28888000" />
+      <workItem from="1759306419824" duration="38565000" />
     </task>
     <servers />
   </component>
