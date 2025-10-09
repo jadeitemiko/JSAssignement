@@ -68,11 +68,9 @@ function Location(Difficulty) {
 console.log(Location(Difficulty) + Equip(rightHand, leftHand));
 
 //random encounter
-
 function rollDice() {
   return Math.floor(Math.random() * 6) + 1;
 }
-
 console.log("Suddenly, a garlic farmer appears and begs for help:")
 console.log("'Adventurer! My "  + rollDice() + " sheep have run amok. Please find them for me!'");
 

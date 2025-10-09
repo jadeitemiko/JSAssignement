@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59dfc09f-f767-4c41-9b9b-e2bdd73002a4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/js/helloclass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/p13-dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p13htmldom.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Assignment2.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Assignment2 - minigame.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Assignment2 - minigame.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Assignment2 - minigame.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -33,12 +39,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.p13htmldom.html.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Node.js.Assignment2.js.executor": "Run",
     "Node.js.P10-outputandinput.js.executor": "Run",
     "Node.js.P9functions.js.executor": "Run",
     "Node.js.app-P9.js.executor": "Run",
-    "Node.js.app.js.executor": "Run",
+    "Node.js.app.js.executor": "Debug",
+    "Node.js.p13-dom.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "disable.download.node.interpreter.editor.notification": "true",
@@ -69,7 +78,8 @@
       <option name="presentableId" value="Default" />
       <updated>1759305972014</updated>
       <workItem from="1759305973909" duration="391000" />
-      <workItem from="1759306419824" duration="39601000" />
+      <workItem from="1759306419824" duration="40199000" />
+      <workItem from="1759907978830" duration="8764000" />
     </task>
     <servers />
   </component>

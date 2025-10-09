@@ -3,11 +3,9 @@ Author: Gabriella
 Date: 2025-10-01
 gabriella.gomez (snabela) medieinstitutet.se
  */
-let stringexample;
+console.log ("Hello world!");
 
-console.log (
-  "Hello World!"
-);
+let stringexample;
 
 const examplestring = "Hello Class this is an example of constants ";
 console.log(examplestring);
@@ -44,7 +42,7 @@ Multiplication and Division
 Addition and Subtraction
  */
 
-let gold = 50;
+/* let gold = 50;
 ++gold;
 console.log(gold);
 
@@ -140,7 +138,7 @@ console.log("BMI är vikt/längd^2. Om vikt är " + vikt + " och höjden är " +
 /* Implement a program that calculates the length of the hypotenuse of a
 right triangle using the lengths of the other two sides as inputs. Display the result.
  */
-
+/*
 const triA = 3;
 const triB = 4;
 
@@ -162,9 +160,8 @@ function beraknHypotenusa(triA, triB) {
 console.log("Förenklad kod! Pythagoras sats är a2 + b2 = c2. " +
   "Om a är " + triA + " och b är " + triB + " är c " + beraknHypotenusa(triA, triB));
 
-/* Implement a program that takes a number input representing seconds
-and converts it to minutes and remaining seconds, then displays the result.
- */
+//Implement a program that takes a number input representing seconds
+//and converts it to minutes and remaining seconds, then displays the result.
 
 const allTime = 111;
 
@@ -241,6 +238,7 @@ console.log(age == 26 || birthyear == 2002);
 != ej lika med
  */
 
+/*
 console.log( 10 > 9); //10 är större än 9 dvs true
 console.log( 10 < 10); //10 är inte STÖRRE än 10 dvs får vi false
 console.log( 10 >= 10); //10 är större eller lika med 10 dvs får vi sant
@@ -269,9 +267,9 @@ console.log("Dagens datum i varianter: " + YY + "-" + MM + "-" + DD);
 const bYear = 1980; //födelseår
 const cYear = new Date().getFullYear();
 const Alder = cYear - bYear;
-/* let isBarn = Alder >= 0 && Alder <= 12;
-let isTon =  Alder >=13 && 17 >= Alder;
-let isVux = Alder >= 18; */
+//let isBarn = Alder >= 0 && Alder <= 12;
+//let isTon =  Alder >=13 && 17 >= Alder;
+//let isVux = Alder >= 18;
 console.log("Vad är någon som är " + Alder + " år gammal?");
 if (Alder >= 18) {
   console.log("Vuxen");
@@ -321,3 +319,4 @@ else {
  else {compare ="";}
 }
   console.log(Ålder + " år gammal, är ditt favoritnummer " + favvo + ". " + utdata + compare + " <3");
+*/
