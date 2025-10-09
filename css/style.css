@@ -12,9 +12,15 @@
    ========================================================================== */
 
 html {
-  color: #222;
+  background-color: #B2D2B2;
+  color: #020210;
   font-size: 1em;
+  font-family: sans-serif;
   line-height: 1.4;
+}
+
+hr {
+  background-color: #000000;
 }
 
 /*

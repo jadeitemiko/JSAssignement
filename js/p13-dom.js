@@ -1,7 +1,7 @@
 console.log("Testing testing");
 
 //skapar ny text ur js på html-sidan
-const p2 = document.createElement("p");
+let p2 = document.createElement("p");
 p2.textContent = "Denna text är genererad med JavaScript";
 document.body.appendChild(p2);
 
@@ -29,11 +29,22 @@ let defin = document.getElementById("defin");
 
 //räknare
 let count = 0;
-const countButt = document.getElementById("countButt"); // Knappen med ID="countButt"
-const counterDisplay = document.getElementById("counterDisplay"); // P-taggen med ID="counter"
+let countButt = document.getElementById("countButt"); // Knappen med ID="countButt"
+let counterDisplay = document.getElementById("counterDisplay"); // P-taggen med ID="counterDisplay"
 countButt.addEventListener("click", () => {
   count++; //öka räknaren
-  counterDisplay.innerHTML = "Nu har du tryckt" + count + "ggr";
-  console.log("Knappen har tryckts " + count + "gånger");
+  counterDisplay.innerHTML = "Nu har du tryckt " + count + " ggr";
+  console.log("Knappen har tryckts " + count + " gånger");
 })
 
+let refDiv = document.getElementById("wrapperDiv");
+let tempPara = document.createElement("p");
+tempPara.textContent = "Här upppstår ny text helt magiskt";
+tempPara.classList.add("pClass");
+refDiv.appendChild(tempPara);
+
+//skapa en referens till HTML elementet medd ID
+let = documnt.getElementById("omslDiv");
+
+//skapa ett p-tag HTML element
+let tempPara = document.createElement("p");
