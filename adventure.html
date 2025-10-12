@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Simple Beginner's Adventure</title>
+  <link rel="stylesheet" href="css/style-game.css">
+</head>
+<body>
+<h1>Hello Adventurer!</h1>
+<div>
+  <form>
+    <label for="playerName">What is your adventuring name?</label><br>
+    <input type="text" id="playerName" name="playerName">
+    <p></p>
+    <label for="playerAge">And how old are you?</label><br>
+    <input type="number" id="playerAge" name="playerAge" min="1" max="999"><br>
+    <p></p>
+    <input type="submit" value="Start game">
+  </form>
+</div>
+<div>
+<p> Welcome, <span class="AdvName"></span>! You're <span id="playerAge"></span> years old
+  - let's see if you're ready to adventure!</p>
+<button id="buttonSwap">Namnbyte</button>
+<div id="ageVerif"></div>
+</div>
+<p>
+<hr>
+</p>
+<p>You wake up in <span class="AdvName">Name</span>'s house. Choose two pieces of equipment:</p>
+<div id="equipList"></div>
+<hr>
+<script src="js/adventure.js"></script>
+<!-- <p>Generate an adventure name for yourself:</p>
+<h2>Ett enkelt formulär</h2>
+<div>
+  <form action="/skicka-data" method="GET">
+    <input type="radio" id="Choice1" name="valet">
+    <input type="radio" id="Choice2" name="valet">
+  </form>
+  <label for="input-text">Vad heter du?</label><br>
+    <input type="text" id="input-text" name="userName">
+    <button type="submit">Skicka</button></h2>
+</div>-->
+</body>
+</html>
