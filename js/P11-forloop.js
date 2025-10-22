@@ -38,7 +38,7 @@ for(let i = 0; i < array.length; ++i) {
   console.log(array[i]);
 }
 
-console.log("Print 13 different random numbers between 1 and 6:");
+console.log("Print random number between 1 and 6:");
 let randomNumber = Math.floor(Math.random() * 6)+1;
 console.log("testa slumpgenerator: " + randomNumber);
 
@@ -49,7 +49,7 @@ for (let i = 0; i < 13; i++) {
 }
 
 //fungerande lösning nedan
-console.log(": korrekt lösning");
+console.log(": korrekt lösning för att slumpa ut 13 tal mellan 1-6 (efter kolon för tydlig)");
 for (let i = 0; i < 13; i++) {
   let slumpSiffra = Math.floor(Math.random() * 6)+1;
   console.log(": " + slumpSiffra);
